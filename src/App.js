@@ -12,8 +12,8 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-        <Route path="/" exact element={<UserForm/>}/> 
-        <Route path="/product/:productId" exact element={<UserTable/>}/>
+        <Route path="/user" exact element={<UserForm/>}/> 
+        <Route path="/user/:userId" exact element={<UserTable/>}/>
         <Route>404 NOT FOUND</Route>
         </Routes>
       </Router>
